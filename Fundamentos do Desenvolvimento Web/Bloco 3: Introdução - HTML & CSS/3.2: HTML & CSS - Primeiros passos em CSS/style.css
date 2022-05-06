@@ -1,0 +1,33 @@
+h1{
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+  text-align: center;
+}
+li{
+  background-color: grey;
+  line-height: 30px;
+}
+.background-color{
+  background-color: lightgreen;
+}
+p{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1in;
+  text-align: center;
+}    
+body{
+  font-size: 16px;
+  font-style: oblique;
+  text-decoration: underline;               
+}    
+#blue{
+  background-color:darkblue;
+}
+#red{
+  background-color: red;
+}
+#green{
+  background-color: green;
+}
