@@ -1,0 +1,12 @@
+#title-format{
+  text-align: center;
+}
+ol li:hover{
+  background-color: aqua;
+}
+li:active{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ol, ul{
+  list-style: none;
+}
