@@ -33,3 +33,8 @@ Dica: Com o plugin code runner que vimos no vídeo você pode executar o seu có
       -Se o horário estiver entre 4 e 11, insira "Hmmm, cheiro de café recém passado" na variável "message".
     4 Agora imprima a variável message fora das suas condições.
 
+Switch e Case
+  1 Crie uma variável para armazenar o estado da pessoa candidata no processo seletivo, que pode ser: 'aprovada', 'lista' ou 'reprovada';
+  2 Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for 'aprovada', 'lista' ou 'reprovada'. Como default, imprima a mensagem de 'não se aplica'.
+
+
