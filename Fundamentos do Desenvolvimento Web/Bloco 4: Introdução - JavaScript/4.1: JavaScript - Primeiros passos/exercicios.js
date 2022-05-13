@@ -54,4 +54,40 @@ if ((ang1 + ang2 + ang3) == 180) {
   console.log(false);
 }
 
+//6:
+let piece = "King";
+let result = piece.toLowerCase();
+
+if (result == "bishop") {
+  console.log("diagonals");
+} else if (result == "pawn") {
+  console.log("vertically forward one square, with the option to move two squares if they have not yet moved");
+} else if (result =="queen") {
+  console.log("diagonally, horizontally, or vertically any number of squares");
+} else if (result == "rook") {
+  console.log("horizontally or vertically any number of squares");
+} else if (result == "knight") {
+  console.log("in an L shape: two squares in a horizontal or vertical direction, then move one square horizontally or vertically");
+} else if (result ==  "king") {
+  console.log("one square in any direction");
+}
+
+//7:
+let nota = 101
+
+if (nota >= 90) {
+  console.log("A");
+} else if (nota >= 80) {
+  console.log("B");
+} else if (nota >= 70) {
+  console.log("C");
+} else if (nota >= 60) {
+  console.log("D");
+} else if (nota >= 50) {
+  console.log("E");
+} else if (nota < 50) {
+  console.log("F");
+} else if (nota < 0 || nota > 100) {
+  console.log("ERROR");
+}
 
