@@ -73,9 +73,11 @@ if (result == "bishop") {
 }
 
 //7:
-let nota = 101
+let nota = 100;
 
-if (nota >= 90) {
+if (nota < 0 || nota > 100) {
+  console.log("ERROR");
+} else if (nota >= 90) {
   console.log("A");
 } else if (nota >= 80) {
   console.log("B");
@@ -87,7 +89,41 @@ if (nota >= 90) {
   console.log("E");
 } else if (nota < 50) {
   console.log("F");
-} else if (nota < 0 || nota > 100) {
-  console.log("ERROR");
 }
 
+//8:
+const numero1 = 6;
+const numero2 = 15;
+const numero3 = 13;
+
+if ((numero1 % 2 == 0) || (numero2 % 2 == 0) || (numero3 % 2 == 0)) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+//9:
+const Numero1 = 6;
+const Numero2 = 16;
+const Numero3 = 14;
+
+if ((Numero1 % 2 !== 0) || (Numero2 % 2 !== 0) || (Numero3 % 2 !== 0)) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+// 10:
+const custo = 15;
+const valorVendaUnica = 70;
+let vendas = 1000;
+
+impostoSobreOCusto = custo * 0.2;
+valorVenda = valorVendaUnica * vendas;
+
+let valorCustoTotal = (custo + impostoSobreOCusto) * vendas;
+let lucro = valorVenda - valorCustoTotal;
+
+console.log(lucro);
+
+// 11:
