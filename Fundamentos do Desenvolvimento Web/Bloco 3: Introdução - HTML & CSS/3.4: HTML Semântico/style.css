@@ -1,3 +1,17 @@
 body{
   background-color: aqua;
 }
+.header{
+  text-align: center;  
+}
+.navigation{
+  text-align: left;
+}
+.aside{
+  text-align: right;
+  margin-left: 800px;
+  /* border: 5px solid red; */
+}
+#general-info, .aside{
+  display: inline-block;
+}
