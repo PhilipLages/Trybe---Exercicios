@@ -1,5 +1,6 @@
 body{
   background-color: aqua;
+  line-height: 30px;
 }
 .header{
   text-align: center;  
@@ -8,10 +9,28 @@ body{
   text-align: left;
 }
 .aside{
-  text-align: right;
-  margin-left: 800px;
+  text-align: right;  
+  width: 38%;
+  vertical-align:auto;
   /* border: 5px solid red; */
+}
+#table, tr, td, th{
+  text-align: center;
+  border: 1px solid black;
+  font-size: 15px;
 }
 #general-info, .aside{
   display: inline-block;
+}
+#general-info{
+  width: 60%;
+  text-align: justify;   
+  /* border: 5px solid red; */
+}
+
+#general-info-image{
+  width: 200px;
+  float: right;
+  margin: 0 0 0 20px;
+  
 }
