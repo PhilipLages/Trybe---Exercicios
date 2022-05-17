@@ -19,6 +19,28 @@ console.log(backWord);
 
 // 3:
 let array = ['java', 'javascript', 'python', 'html', 'css'];
+let biggestWord = array[0];
+
+for (let index = 0; index < array.length; index += 1) {  
+    if (array[index].length > biggestWord.length) {
+      biggestWord = array[index];
+    }
+  }
+  console.log(biggestWord);
+
+array = ['java', 'javascript', 'python', 'html', 'css', 'ab'];
+let smallestWord = array[0];
+
+for (let index = 0; index < array.length; index += 1) {  
+    if (array[index].length < smallestWord.length) {
+      smallestWord = array[index];
+    }
+  }
+  console.log(smallestWord);
+
+  // 4:
+  
+
 
 
 
