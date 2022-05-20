@@ -25,10 +25,12 @@ brotherOf.appendChild(brotherName);
 // 2:
 let childOf = position;
 let childName = document.createElement('div');
+childName.className = 'terceiroFilhodoFilho';
 childOf.appendChild(childName);
 // 3:
 let sonOfSon = text;
 let sonOfSonName = document.createElement('div');
+sonOfSonName.className = 'primeiroFilhodoFilhodoFilho';
 sonOfSon.appendChild(sonOfSonName);
 // 4:
 let findThirdChild = document.querySelector('#primeiroFilhoDoFilho div').parentNode.parentNode.nextElementSibling;
