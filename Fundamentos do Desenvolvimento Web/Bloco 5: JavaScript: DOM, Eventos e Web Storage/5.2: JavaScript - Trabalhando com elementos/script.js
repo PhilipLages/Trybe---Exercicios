@@ -1,3 +1,4 @@
+// Parte 1
 // 1:
 let position = document.getElementById('elementoOndeVoceEsta');
 // 2:
@@ -15,6 +16,23 @@ let atencao = position.nextSibling;
 let thirdChild = position.nextElementSibling;
 // 8:
 let fatherThirdChild = document.getElementById('pai').lastElementChild.previousElementSibling;
+
+// Parte 2:
+// 1:
+let brotherOf = document.getElementById('pai');
+let brotherName = document.createElement('div');
+brotherOf.appendChild(brotherName);
+// 2:
+let childOf = position;
+let childName = document.createElement('div');
+childOf.appendChild(childName);
+// 3:
+let sonOfSon = text;
+let sonOfSonName = document.createElement('div');
+sonOfSon.appendChild(sonOfSonName);
+// 4:
+let findThirdChild = document.querySelector('#primeiroFilhoDoFilho div').parentNode.parentNode.nextElementSibling;
+
 
 
 
