@@ -16,3 +16,7 @@ Parte 2 = Criando elementos;
 2- Crie um filho para elementoOndeVoceEsta.
 3- Crie um filho para primeiroFilhoDoFilho.
 4- A partir desse filho criado, acesse terceiroFilho.
+
+Parte 3 = Removendo elementos;
+
+Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho.

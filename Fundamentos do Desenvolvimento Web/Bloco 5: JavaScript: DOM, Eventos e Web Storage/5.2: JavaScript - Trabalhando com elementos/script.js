@@ -35,6 +35,18 @@ sonOfSon.appendChild(sonOfSonName);
 // 4:
 let findThirdChild = document.querySelector('#primeiroFilhoDoFilho div').parentNode.parentNode.nextElementSibling;
 
+// Parte 3:
+let remove = document.getElementById('pai');
+
+for (index = remove.childNodes.length - 1; index >= 0; index -= 1) {
+  let child = remove.childNodes[index];
+  if (child.id !== 'elementoOndeVoceEsta') {
+    child.remove();    
+  }
+}
+let segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+segundoEUltimoFilhoDoFilho.remove();
+
 
 
 
