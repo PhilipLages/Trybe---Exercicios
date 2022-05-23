@@ -62,11 +62,12 @@
       let body = document.querySelector('body');
       function createNewTag(tag, classes){         
         let createTag = document.createElement(tag);        
-        createTag.className = classes;
-        createTag.innerText
+        createTag.className = classes;        
         return createTag;
-      };    
+      };
       body.appendChild(createNewTag('h1', 'title'));
+      let title = document.querySelector('h1');
+      title.innerText = 'Exercício 5.2 - JavaScript DOM';
       
       // 2:
       body.appendChild(createNewTag('main', 'main-content'));
@@ -77,7 +78,7 @@
 
       // 4:
       let section = document.querySelector('section');
-      section.appendChild(createNewTag('p', 'text'));
+      section.appendChild(createNewTag('p', 'title'));
       let paragraph = document.querySelector('p');
       paragraph.innerText = 'Texto teste';
 
@@ -114,12 +115,28 @@
       // Bonus:
       // 1:
       // body.appendChild(createNewTag('h1', 'title'));
-      
 
+      // 2:
+      // main.appendChild(createNewTag('h3', 'description'));
 
-      
-      
-      
+      // 3:
+      main.removeChild(section2);
+
+      // 4:
+      section3.style.marginRight = 'auto';
+
+      // 5:
+      let section1 = document.getElementsByTagName('section')[0];
+      section1.style.backgroundColor = 'green';
+
+      // 6:
+      let showLastListIten = document.querySelector('ul').lastElementChild;
+      showLastListIten.remove();
+
+      let showNinthListIten = document.querySelector('ul').lastElementChild;
+      showNinthListIten.remove();
+
+  
 
     </script>
   </body>
