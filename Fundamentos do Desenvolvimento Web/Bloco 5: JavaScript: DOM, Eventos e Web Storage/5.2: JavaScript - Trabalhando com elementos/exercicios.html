@@ -58,6 +58,69 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
+      // 1:
+      let body = document.querySelector('body');
+      function createNewTag(tag, classes){         
+        let createTag = document.createElement(tag);        
+        createTag.className = classes;
+        createTag.innerText
+        return createTag;
+      };    
+      body.appendChild(createNewTag('h1', 'title'));
+      
+      // 2:
+      body.appendChild(createNewTag('main', 'main-content'));
+
+      // 3:
+      let main = document.querySelector('main');
+      main.appendChild(createNewTag('section', 'center-content'));
+
+      // 4:
+      let section = document.querySelector('section');
+      section.appendChild(createNewTag('p', 'text'));
+      let paragraph = document.querySelector('p');
+      paragraph.innerText = 'Texto teste';
+
+      // 5:
+      main.appendChild(createNewTag('section', 'left-content'));
+
+      // 6:
+      main.appendChild(createNewTag('section', 'right-content'));
+
+      // 7:
+      let section2 = document.getElementsByTagName('section')[1];
+      let img = createNewTag('img', 'image');
+      img.src = 'https://picsum.photos/200';
+      section2.appendChild(img);
+
+      // 8:
+      let section3 = document.getElementsByTagName('section')[2];
+      section3.appendChild(createNewTag('ul', 'list'));
+      let listItens = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      let unorderedList = document.querySelector('.list');   
+
+      for (let index = 0; index < listItens.length; index += 1) {
+        let iten = listItens[index];
+        let list = createNewTag('Li');
+        list.innerText = iten;
+        unorderedList.appendChild(list);
+      };
+
+      // 9:
+      for (let index2 = 0; index2 < 3; index2 += 1) {
+        main.appendChild(createNewTag('h3', 'description'));
+      };
+
+      // Bonus:
+      // 1:
+      // body.appendChild(createNewTag('h1', 'title'));
+      
+
+
+      
+      
+      
+
     </script>
   </body>
 </html>
