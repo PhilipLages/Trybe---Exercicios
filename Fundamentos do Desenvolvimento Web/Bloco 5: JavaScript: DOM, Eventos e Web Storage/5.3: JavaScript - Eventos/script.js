@@ -28,6 +28,7 @@ for (let day = 0; day < dezDaysList.length; day += 1) {
   let listDay = dezDaysList[day];
   let list = createNewTag('Li', 'class', 'day');
   list.innerText = listDay;
+  list.style.backgroundColor = 'rgb(238, 238, 238)';
   if (dezDaysList[day] === 25) {
     list.setAttribute('class', 'days holiday friday')    
   } else if (dezDaysList[day] === 24 || dezDaysList[day] === 31 ) {
@@ -39,13 +40,44 @@ for (let day = 0; day < dezDaysList.length; day += 1) {
 };
 
 // 2:
-const holidayButton = document.querySelector('.buttons-container');
+const findButtons = document.querySelector('.buttons-container');
 function createHolidayButton (Feriados) {
-  holidayButton.appendChild(createNewTag('button', 'id', 'btn-holiday'));  
+  let holidayButton = findButtons.appendChild(createNewTag('button', 'id', 'btn-holiday'));
+  holidayButton.innerText = Feriados;
 }
-createHolidayButton();
+createHolidayButton('Feriados');
 
 // 3:
+const holidayButton = document.querySelector('#btn-holiday');
+const holidayColor = document.querySelectorAll('.holiday');
+function changeHolidayColor() {
+  for (let holiday = 0; holiday < holidayColor.length; holiday += 1) {
+    if (holidayColor[holiday].style.backgroundColor === 'rgb(238, 238, 238)') {
+      holidayColor[holiday].style.backgroundColor = 'lightGreen';
+    } else {
+      holidayColor[holiday].style.backgroundColor = 'rgb(238, 238, 238)';
+    }
+    }
+  }
+holidayButton.addEventListener('click', changeHolidayColor);
+
+// 4:
+function createFridayButton(Friday) {
+  let fridayButton = findButtons.appendChild(createNewTag('button', 'id', 'btn-friday'));
+  fridayButton.innerText = Friday;
+};
+createFridayButton('Sexta-Feira');
+
+// 5:
+const fridayButton = document.querySelector('#btn-friday');
+const fridayText = document.querySelectorAll('.friday');
+const fridays = ['4', '11', '18', '25'];
+function changeFridayText() {
+  
+}
+  
+
+fridayButton.addEventListener('click', changeFridayText);
 
 
 
