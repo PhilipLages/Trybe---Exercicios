@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.form {  
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.inputs {
+  width: 100%;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+#answer {
+  resize: none;
+}
+
+.click-boxes {
+  padding: 10px;
+  border-radius: 5px;
+}
