@@ -17,8 +17,10 @@
       <label for="full-name">Nome completo:</label>
       <input type="text" name="full-name" class="inputs" id="full-name" minlength="10" maxlength="40" placeholder="Tony Stark" required >
       <br>
-      <label for="input-email">Email:</label>
-      <input type="email" name="email" class="inputs" id="input-email" minlength="10" maxlength="50" placeholder="tonystark@starkindustries.com"  required>
+      <div class="content">
+        <label for="input-email">Email:</label>
+        <input type="email" name="email" class="inputs" id="input-email" minlength="10" maxlength="50" placeholder="tonystark@starkindustries.com"  required>
+      </div>   
       <div class="content">
         <legend>Destino preferido:</legend>       
         <input type="radio" name="destiny" id="city" value="city">
@@ -48,7 +50,8 @@
         <label for="shared-info">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
       </div>
       <div class="content">
-        <button class="click-boxes" type="submit">Enviar</button>
+        <button class="click-boxes" type="submit" id="submit-btn">Enviar</button>
+        <button class="click-boxes" type="reset">Apagar informações</button>
       </div>       
     </form>
   </main>
