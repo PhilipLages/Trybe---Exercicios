@@ -43,7 +43,7 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Project - Meme Generator]()_
 - [ ] 5-6: _[Project - Art with Pixels](https://github.com/PhilipLages/pixels-art)_
-- [ ] 5-7: _[Project - To-Do List]()_
+- [ ] 5-7: _[Project - To-Do List](https://github.com/PhilipLages/to-do-list)_
 - [ ] 5-8: _[Project - Guess the Color]()_
 - [ ] 5-9: _[Project - Mystery Letter]()_
 
