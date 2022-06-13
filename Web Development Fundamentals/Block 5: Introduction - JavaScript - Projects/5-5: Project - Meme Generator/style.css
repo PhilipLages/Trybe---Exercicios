@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all-container {
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid darkblue;
+  border-radius: 18%;
+  background-color: lightblue;
+}
+
+header {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  text-align: center;
+}
+
+.container h6 {
+  margin-top: 10px;
+}
+
+#meme-image-container {
+  border: 1px solid black;
+  background-color: white;
+  margin: auto;
+  position: relative;
+}
+
+#meme-text {
+  position: absolute;
+  top: 73%;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+}
+
+#meme-image {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.default-memes {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.meme {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+}
+
+#meme-1 {
+  background-image: url(./imgs/meme1.png);
+}
+
+#meme-2 {
+  background-image: url(./imgs/meme2.png);
+}
+
+#meme-3 {
+  background-image: url(./imgs/meme3.png);
+}
+
+#meme-4 {
+  background-image: url(./imgs/meme4.png);
+}
+
+.styles {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.container label {
+  margin-top: 10px;
+}
+
+#fire {
+  background-color: rgb(255 , 0 , 0);
+  color: white;
+}
+
+#water {
+  background-color: rgb(0 , 0 , 255);
+  color: white;
+}
+
+#earth {
+  background-color: rgb(0 , 128 , 0);
+  color: white;
+}

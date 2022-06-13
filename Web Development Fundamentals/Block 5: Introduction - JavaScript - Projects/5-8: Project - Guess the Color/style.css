@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.all-container {
+  font-family: 'Lobster', cursive;
+  color: darkblue;
+  margin: auto;
+  background-image: url(./background.webp);
+  background-size: cover;  
+}
+
+#container {
+  text-align: center;
+}
+
+#circles-container {
+  text-align: center;
+}
+
+.ball {
+  border: solid black 1px;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.score {
+  display: inline-block;
+}
+
+#buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#reset-game {
+  width: 150px;
+  height: 50px;
+  font-family: 'Lobster', cursive !important;
+  font-size: 20px;
+  background-color: yellow;
+  border-radius: 50%;
+  border: 4px solid black;
+}
