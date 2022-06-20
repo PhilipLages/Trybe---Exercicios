@@ -2,7 +2,7 @@
   "name": "jest-exercises",
   "version": "1.0.0",
   "description": "",
-  "main": "sum.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
