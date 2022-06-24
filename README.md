@@ -72,14 +72,13 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 - [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
 - [ ] 8-6: _[Project - Zoo functions]()_
 
+## Front-end development :hourglass_flowing_sand:
 ##### Block 9: JavaScript and asynchronous testing
 
 - [ ] 9-1: _Asynchronous JavaScript and Callbacks_
 - [ ] 9-2: _Asynchronous JavaScript - Fetch API and async/await_
 - [ ] 9-3: _Asynchronous Tests_
 - [ ] 9-4: _[Project - Shopping Cart]()_
-
-## Front-end development :hourglass_flowing_sand:
 
 ##### Block 10: Introduction - React
 
