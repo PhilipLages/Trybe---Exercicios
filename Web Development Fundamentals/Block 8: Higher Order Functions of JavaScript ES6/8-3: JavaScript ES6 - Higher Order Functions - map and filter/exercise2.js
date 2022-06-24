@@ -1,4 +1,5 @@
-// 1 - Create an array in the format BOOK_NAME - BOOK_GENRE - AUTHOR_NAME
+// 2 - Build an array of objects from the book array. Each object must contain an author property, with the name of the person who authored the book, and an age property with the age of that person when the book was released. The array must be sorted by age, i.e. from the youngest to the oldest person considering their ages when the book was released.
+
 const books = [
   {
     id: 1,
@@ -63,6 +64,9 @@ const books = [
 ];
 
 // Add code here:
-const booksNames = (books) => books.map(book => `${book.name} - ${book.genre} - ${book.author.name}`);
 
-console.log(booksNames(books));
+const expectedResult = (array) => array.map(book => ({age: book.releaseYear - book.author
+  .birthYear, author: book.author.name})).sort((a, b) => a.age - b.age);
+
+
+console.log(expectedResult(books));
