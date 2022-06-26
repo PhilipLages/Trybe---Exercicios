@@ -61,7 +61,7 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 - [ ] 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
 - [ ] 7-2: _JavaScript ES6 - Exception flow and Objects_
 - [ ] 7-3: _First steps in Jest_
-- [ ] 7-4: _[Project - JavaScript Unitary Testing]()_
+- [ ] 7-4: _[Project - JavaScript Unitary Testing](https://github.com/PhilipLages/unitary-testing)_
 
 ##### Block 8: Higher Order Functions of JavaScript ES6
 
