@@ -13,4 +13,4 @@ const sendMarsTemperature = (callback) => {
   }, messageDelay()) ;
 }
 
-sendMarsTemperature(getMarsTemperature()); // print "Mars temperature is: 20 degree Celsius", por exemplo
+sendMarsTemperature(getMarsTemperature()); // print "Mars temperature is: 20 degree Celsius", I.e.
