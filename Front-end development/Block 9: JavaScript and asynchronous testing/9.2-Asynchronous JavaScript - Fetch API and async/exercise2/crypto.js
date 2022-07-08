@@ -1,7 +1,7 @@
 const createList = (data) => {
   const container = document.querySelector('.container');
   const list = '<ul>' + data.reduce((html, crypto) => {    
-    html += `<li>${crypto.id} (${crypto.symbol}): US$ ${parseFloat(crypto.priceUsd).toFixed(2)};<li>`;
+    html += `<li>${crypto.id} (${crypto.symbol}): US$ ${parseFloat(crypto.priceUsd).toFixed(2)};</li>`;
     return html;
   }, ' ') + '</ul>';
   container.innerHTML = list;
