@@ -1,7 +1,7 @@
 // apiScript.js
 const url = 'https://icanhazdadjoke.com/';
 
-const fetchJoke = () => {
+const fetchJoke = async () => {
   const jokeContainer = document.querySelector('#jokeContainer');
   const obj = {
     method: 'GET',
