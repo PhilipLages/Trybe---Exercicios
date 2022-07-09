@@ -4,21 +4,27 @@ const createNewTag = (parent, tag, attribute, value) => {
   parent.appendChild(createTag);  
 }
 
-const createList = (data) => {
+const getBrlCurrency = async () => {
+  try {
+    const url = `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd.min.json`;
+    const response = await fetch(url);
+    const { usd: { brl } } = await response.json();
+    return brl;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+const createList = async (data) => {
   const container = document.querySelector('.container');
   createNewTag(container, 'ul', 'id', 'list')
   const list = document.querySelector('#list');
+  const brl = await getBrlCurrency();
   data.forEach((crypto) => {
     const listItem = document.createElement("li");
-    listItem.innerHTML = `${crypto.id} (${crypto.symbol}): ${parseFloat(crypto.priceUsd).toFixed(2)};`;
+    listItem.innerText = `${crypto.id} (${crypto.symbol}): ${(parseFloat(crypto.priceUsd) * brl).toFixed(2)};`;
     list.appendChild(listItem);
   });
-  
-  // const list = '<ul>' + data.reduce((html, crypto) => {    
-  //   html += `<li>${crypto.id} (${crypto.symbol}): US$ ${parseFloat(crypto.priceUsd).toFixed(2)};</li>`;
-  //   return html;
-  // }, ' ') + '</ul>';
-  // container.innerHTML = list;
 }
 
 const getCurrencies = async () => {
@@ -33,3 +39,4 @@ const getCurrencies = async () => {
 }
 
 getCurrencies();
+
