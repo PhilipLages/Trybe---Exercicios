@@ -78,7 +78,7 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 - [ ] 9-1: _Asynchronous JavaScript and Callbacks_
 - [ ] 9-2: _Asynchronous JavaScript - Fetch API and async/await_
 - [ ] 9-3: _Asynchronous Tests_
-- [ ] 9-4: _[Project - Shopping Cart]()_
+- [ ] 9-4: _[Project - Shopping Cart](https://github.com/PhilipLages/shopping-cart)_
 
 ##### Block 10: Introduction - React
 
