@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import Pokemon from '../components/Pokemon';
-import pokemons from '../data';
 
-class Pokedex extends React.Component {
+class Pokedex extends Component {
   render() {
+    const { pokemons } = this.props;
     return (
       <section className="container">
         <h1>Pokedex</h1>
