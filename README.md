@@ -84,7 +84,7 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 
 - [ ] 10-1: _'Hello, world!' in React!_
 - [ ] 10-2: _React components_
-- [ ] 10-3: _[Project - Solar System]()_
+- [ ] 10-3: _[Project - Solar System](https://github.com/PhilipLages/solar-system)_
 
 ##### Block 11: Components with State, Events and Forms with React
 
