@@ -96,7 +96,7 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 
 - [ ] 12-1: _Component Lifecycle_
 - [ ] 12-2: _React Router_
-- [ ] 12-3: _[Project - TrybeTunes]()_
+- [ ] 12-3: _[Project - TrybeTunes](https://github.com/PhilipLages/trybetunes)_
 
 ##### Block 13: Agile Methodologies
 
