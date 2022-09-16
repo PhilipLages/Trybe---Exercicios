@@ -1,9 +1,9 @@
 import React from 'react'
-import StudentForm from './components/StudentForm'
+import StudentsForm from './components/StudentsForm'
 
 export default function App() {
   return (
-    <StudentForm />
+    <StudentsForm />
   )
 }
 
