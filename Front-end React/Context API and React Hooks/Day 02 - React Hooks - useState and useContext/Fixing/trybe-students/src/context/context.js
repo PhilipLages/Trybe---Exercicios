@@ -1,5 +1,5 @@
 import { createContext } from "react";
 
-const StudentsContext = createContext();
+export const FormDataContext = createContext();
 
-export default StudentsContext;
+export const StudentsContext = createContext();

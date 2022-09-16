@@ -1,6 +1,5 @@
-import React from 'react'
-import { useState } from 'react';
-import StudentsContext from './context';
+import React, { useContext, useState } from 'react'
+import { FormDataContext, StudentsContext } from './context'
 
 const initial_state = {
   name: '',
@@ -9,27 +8,41 @@ const initial_state = {
   module: '',  
 }
 
-export default function StudentsProvider({children}) {
+export default function StudentsProvider({ children }) {
 
-  const [ formData, setFormData ] = useState(initial_state);
+  const [ students, setStudents ] = useState([])
+  const [ id, setId ] = useState(0); 
 
-  const handleChange = (({ target: {name, value} }) => {
-    setFormData((prevData) => ({ ...prevData, [name]: value }));
-  });
+  const { formData: { name, age, city, module }, setFormData } = useContext(FormDataContext);  
 
   const clearInputs = () => {
     setFormData({ ...initial_state });
   };
 
-  const context = {
-    formData,
-    handleChange,
-    clearInputs,
-  };
+  const handleSubmit = (e) => {
+    e.preventDefault();    
+    setId(id + 1);
+
+    const newStudent = {
+      id, 
+      name,
+      age,
+      city,
+      module,
+    }
+
+    setStudents(students.concat(newStudent));
+    clearInputs();
+  }
+
+  const context= {
+    students,
+    handleSubmit,
+  }
 
   return (
     <StudentsContext.Provider value={context}>
-      {children}
+      { children }
     </StudentsContext.Provider>
   )
 }
