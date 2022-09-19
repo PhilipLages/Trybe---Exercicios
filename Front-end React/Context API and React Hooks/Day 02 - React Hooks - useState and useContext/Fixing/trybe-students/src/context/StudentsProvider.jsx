@@ -31,7 +31,7 @@ export default function StudentsProvider({ children }) {
       module,
     }
 
-    setStudents(students.concat(newStudent));
+    setStudents(prevState =>  [...prevState, newStudent] );
     clearInputs();
   }
 

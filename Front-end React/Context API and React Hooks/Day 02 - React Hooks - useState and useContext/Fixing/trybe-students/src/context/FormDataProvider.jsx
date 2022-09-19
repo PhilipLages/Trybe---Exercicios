@@ -13,7 +13,7 @@ export default function FormDataProvider({children}) {
   const [ formData, setFormData ] = useState(initial_state);
 
   const handleChange = (({ target: {name, value} }) => {
-    setFormData((prevData) => ({ ...prevData, [name]: value }));
+    setFormData(prevData => ({ ...prevData, [name]: value }));
   });
 
   const context = {
