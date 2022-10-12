@@ -90,7 +90,7 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 
 - [ ] 11-1: _Components with state and events_
 - [ ] 11-2: _Forms in React_
-- [ ] 11-3: _[Project - Tryunfo]()_
+- [ ] 11-3: _[Project - Tryunfo](https://github.com/PhilipLages/tryunfo)_
 
 ##### Block 12: Component Lifecycle and React Router
 
@@ -101,14 +101,14 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 ##### Block 13: Agile Methodologies
 
 - [ ] 13-1: _Agile methodologies_
-- [ ] 13-2: _[Project - Frontend Online Store]()_
+- [ ] 13-2: _[Project - Frontend Online Store](https://github.com/PhilipLages/frontend-online-store)_
 
 ##### Block 14: Automated testing with React Testing Library
 
 - [ ] 14-1: _RLT - Getting Started_
 - [ ] 14-2: _RLT - Mocks and Inputs_
 - [ ] 14-3: _RLT - Testing React Router_
-- [ ] 14-4: _[Project - Testing in React]()_
+- [ ] 14-4: _[Project - Testing in React](https://github.com/PhilipLages/react-testing-library-project)_
 
 ##### Block 15: State management with Redux
 
@@ -117,22 +117,22 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 - [ ] 15-3: _Using Redux in React - Practice_
 - [ ] 15-4: _Using Redux in React - Asynchronous Actions_
 - [ ] 15-5: _Testing in React-Redux_
-- [ ] 15-6: _[Project - Trybe Wallet]()_
+- [ ] 15-6: _[Project - Trybe Wallet](https://github.com/PhilipLages/trybewallet)_
 
 ##### Block 16: _[Project - Trivia Game
 
-- [ ] 16-1: _[Project - Trivia Game]()_
+- [ ] 16-1: _[Project - Trivia Game](https://github.com/PhilipLages/project-trivia-game)_
 
 ##### Block 17: Context API and React Hooks
 
 - [ ] 17-1: _React's Context API_
 - [ ] 17-2: _React Hooks - useState and useContext_
 - [ ] 17-3: _React Hooks - useEffect and custom Hooks_
-- [ ] 17-4: _[Project - StarWars Datatable with Context API and Hooks]()_
+- [ ] 17-4: _[Project - StarWars Datatable with Context API and Hooks](https://github.com/PhilipLages/starwars-planets-search)_
 
 ##### Block 18: Project Recipe App
 
-- [ ] 18-1: _[Project - Recipes App]()_
+- [ ] 18-1: _[Project - Recipes App](https://github.com/PhilipLages/recipes-app)_
 
 ## Back-end Development :hourglass_flowing_sand:
 
