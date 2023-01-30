@@ -6,3 +6,15 @@ db.Cars.insertOne({
    name: 'Gol',
    price: 15000
 });
+
+db.Cars.insertOne({
+   name: 'Corolla',
+   price: 130000
+});
+
+db.Cars.insertMany(
+   [
+      { name: 'Camaro', price: 260000 },
+      { name: 'Ferrari', price: 860000 },
+   ]
+);
