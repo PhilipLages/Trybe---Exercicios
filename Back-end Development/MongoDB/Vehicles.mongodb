@@ -1,0 +1,8 @@
+const database = 'Vehicles';
+const collection = 'Cars';
+
+use(database);
+db.Cars.insertOne({
+   name: 'Gol',
+   price: 15000
+});
