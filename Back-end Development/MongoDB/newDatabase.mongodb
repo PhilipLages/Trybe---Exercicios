@@ -1,0 +1,9 @@
+use('newDatabase')
+db.createCollection
+
+db.createCollection( "newCollection",  
+   [
+    { "title": "Informação 1", "description": "Valor de exemplo 1"},
+    { "title": "Informação 2", "description": "Valor de exemplo 2"}
+   ]
+)
